@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D12A3EB1EC4502A00FDF570 /* GiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D12A3EA1EC4502A00FDF570 /* GiftViewController.swift */; };
+		7D12A3F31EC453FB00FDF570 /* HQContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D12A3EC1EC453FB00FDF570 /* HQContentView.swift */; };
+		7D12A3F41EC453FB00FDF570 /* HQPageCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D12A3ED1EC453FB00FDF570 /* HQPageCollectionView.swift */; };
+		7D12A3F51EC453FB00FDF570 /* HQPageCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D12A3EE1EC453FB00FDF570 /* HQPageCollectionViewLayout.swift */; };
+		7D12A3F61EC453FB00FDF570 /* HQPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D12A3EF1EC453FB00FDF570 /* HQPageView.swift */; };
+		7D12A3F71EC453FB00FDF570 /* HQTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D12A3F01EC453FB00FDF570 /* HQTitleLabel.swift */; };
+		7D12A3F81EC453FB00FDF570 /* HQTitleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D12A3F11EC453FB00FDF570 /* HQTitleStyle.swift */; };
+		7D12A3F91EC453FB00FDF570 /* HQTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D12A3F21EC453FB00FDF570 /* HQTitleView.swift */; };
 		7D7DC7831EC18F33005252E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7DC7821EC18F33005252E3 /* AppDelegate.swift */; };
 		7D7DC7881EC18F33005252E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D7DC7861EC18F33005252E3 /* Main.storyboard */; };
 		7D7DC78A1EC18F33005252E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D7DC7891EC18F33005252E3 /* Assets.xcassets */; };
 		7D7DC78D1EC18F33005252E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D7DC78B1EC18F33005252E3 /* LaunchScreen.storyboard */; };
-		7D7DC7A51EC18F50005252E3 /* HQContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7DC7A01EC18F50005252E3 /* HQContentView.swift */; };
-		7D7DC7A61EC18F50005252E3 /* HQPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7DC7A11EC18F50005252E3 /* HQPageView.swift */; };
-		7D7DC7A71EC18F50005252E3 /* HQTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7DC7A21EC18F50005252E3 /* HQTitleLabel.swift */; };
-		7D7DC7A81EC18F50005252E3 /* HQTitleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7DC7A31EC18F50005252E3 /* HQTitleStyle.swift */; };
-		7D7DC7A91EC18F50005252E3 /* HQTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7DC7A41EC18F50005252E3 /* HQTitleView.swift */; };
 		7D7DC7AB1EC19033005252E3 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7DC7AA1EC19033005252E3 /* TableViewController.swift */; };
 		7D7DC7AD1EC19211005252E3 /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7DC7AC1EC19211005252E3 /* MusicViewController.swift */; };
 		7D7DC7AF1EC19218005252E3 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7DC7AE1EC19218005252E3 /* NewsViewController.swift */; };
@@ -25,17 +28,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D12A3EA1EC4502A00FDF570 /* GiftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GiftViewController.swift; sourceTree = "<group>"; };
+		7D12A3EC1EC453FB00FDF570 /* HQContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HQContentView.swift; sourceTree = "<group>"; };
+		7D12A3ED1EC453FB00FDF570 /* HQPageCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HQPageCollectionView.swift; sourceTree = "<group>"; };
+		7D12A3EE1EC453FB00FDF570 /* HQPageCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HQPageCollectionViewLayout.swift; sourceTree = "<group>"; };
+		7D12A3EF1EC453FB00FDF570 /* HQPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HQPageView.swift; sourceTree = "<group>"; };
+		7D12A3F01EC453FB00FDF570 /* HQTitleLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HQTitleLabel.swift; sourceTree = "<group>"; };
+		7D12A3F11EC453FB00FDF570 /* HQTitleStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HQTitleStyle.swift; sourceTree = "<group>"; };
+		7D12A3F21EC453FB00FDF570 /* HQTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HQTitleView.swift; sourceTree = "<group>"; };
 		7D7DC77F1EC18F33005252E3 /* HQPageViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HQPageViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D7DC7821EC18F33005252E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D7DC7871EC18F33005252E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7D7DC7891EC18F33005252E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D7DC78C1EC18F33005252E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D7DC78E1EC18F33005252E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7D7DC7A01EC18F50005252E3 /* HQContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HQContentView.swift; sourceTree = "<group>"; };
-		7D7DC7A11EC18F50005252E3 /* HQPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HQPageView.swift; sourceTree = "<group>"; };
-		7D7DC7A21EC18F50005252E3 /* HQTitleLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HQTitleLabel.swift; sourceTree = "<group>"; };
-		7D7DC7A31EC18F50005252E3 /* HQTitleStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HQTitleStyle.swift; sourceTree = "<group>"; };
-		7D7DC7A41EC18F50005252E3 /* HQTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HQTitleView.swift; sourceTree = "<group>"; };
 		7D7DC7AA1EC19033005252E3 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		7D7DC7AC1EC19211005252E3 /* MusicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
 		7D7DC7AE1EC19218005252E3 /* NewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +61,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7D12A3D91EC44FCF00FDF570 /* HQPageView */ = {
+			isa = PBXGroup;
+			children = (
+				7D12A3EF1EC453FB00FDF570 /* HQPageView.swift */,
+				7D12A3ED1EC453FB00FDF570 /* HQPageCollectionView.swift */,
+				7D12A3F21EC453FB00FDF570 /* HQTitleView.swift */,
+				7D12A3EC1EC453FB00FDF570 /* HQContentView.swift */,
+				7D12A3EE1EC453FB00FDF570 /* HQPageCollectionViewLayout.swift */,
+				7D12A3F01EC453FB00FDF570 /* HQTitleLabel.swift */,
+				7D12A3F11EC453FB00FDF570 /* HQTitleStyle.swift */,
+			);
+			path = HQPageView;
+			sourceTree = "<group>";
+		};
 		7D7DC7761EC18F32005252E3 = {
 			isa = PBXGroup;
 			children = (
@@ -74,13 +94,14 @@
 		7D7DC7811EC18F33005252E3 /* HQPageViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				7D7DC79F1EC18F50005252E3 /* HQPageView */,
+				7D12A3D91EC44FCF00FDF570 /* HQPageView */,
 				7D7DC7821EC18F33005252E3 /* AppDelegate.swift */,
 				7D7DC7AA1EC19033005252E3 /* TableViewController.swift */,
 				7D7DC7AC1EC19211005252E3 /* MusicViewController.swift */,
 				7D7DC7AE1EC19218005252E3 /* NewsViewController.swift */,
 				7D7DC7B01EC19221005252E3 /* PPTVViewController.swift */,
 				7D7DC7B21EC19232005252E3 /* DouYuViewController.swift */,
+				7D12A3EA1EC4502A00FDF570 /* GiftViewController.swift */,
 				7D7DC7B41EC19340005252E3 /* UIColor+Extension.swift */,
 				7D7DC7861EC18F33005252E3 /* Main.storyboard */,
 				7D7DC7891EC18F33005252E3 /* Assets.xcassets */,
@@ -88,18 +109,6 @@
 				7D7DC78E1EC18F33005252E3 /* Info.plist */,
 			);
 			path = HQPageViewDemo;
-			sourceTree = "<group>";
-		};
-		7D7DC79F1EC18F50005252E3 /* HQPageView */ = {
-			isa = PBXGroup;
-			children = (
-				7D7DC7A01EC18F50005252E3 /* HQContentView.swift */,
-				7D7DC7A11EC18F50005252E3 /* HQPageView.swift */,
-				7D7DC7A21EC18F50005252E3 /* HQTitleLabel.swift */,
-				7D7DC7A31EC18F50005252E3 /* HQTitleStyle.swift */,
-				7D7DC7A41EC18F50005252E3 /* HQTitleView.swift */,
-			);
-			path = HQPageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,17 +184,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D7DC7A71EC18F50005252E3 /* HQTitleLabel.swift in Sources */,
 				7D7DC7B31EC19232005252E3 /* DouYuViewController.swift in Sources */,
+				7D12A3F51EC453FB00FDF570 /* HQPageCollectionViewLayout.swift in Sources */,
 				7D7DC7AB1EC19033005252E3 /* TableViewController.swift in Sources */,
+				7D12A3F81EC453FB00FDF570 /* HQTitleStyle.swift in Sources */,
+				7D12A3F71EC453FB00FDF570 /* HQTitleLabel.swift in Sources */,
+				7D12A3F41EC453FB00FDF570 /* HQPageCollectionView.swift in Sources */,
+				7D12A3F61EC453FB00FDF570 /* HQPageView.swift in Sources */,
 				7D7DC7B51EC19340005252E3 /* UIColor+Extension.swift in Sources */,
+				7D12A3F91EC453FB00FDF570 /* HQTitleView.swift in Sources */,
 				7D7DC7B11EC19221005252E3 /* PPTVViewController.swift in Sources */,
-				7D7DC7A81EC18F50005252E3 /* HQTitleStyle.swift in Sources */,
-				7D7DC7A61EC18F50005252E3 /* HQPageView.swift in Sources */,
 				7D7DC7AD1EC19211005252E3 /* MusicViewController.swift in Sources */,
-				7D7DC7A51EC18F50005252E3 /* HQContentView.swift in Sources */,
 				7D7DC7AF1EC19218005252E3 /* NewsViewController.swift in Sources */,
-				7D7DC7A91EC18F50005252E3 /* HQTitleView.swift in Sources */,
+				7D12A3F31EC453FB00FDF570 /* HQContentView.swift in Sources */,
+				7D12A3EB1EC4502A00FDF570 /* GiftViewController.swift in Sources */,
 				7D7DC7831EC18F33005252E3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,6 +366,7 @@
 				7D7DC7931EC18F33005252E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -18,6 +18,8 @@ class HQTitleStyle {
     var font: UIFont = UIFont.systemFont(ofSize: 14.0)
     /// 设置titleView的高度
     var titleHeight: CGFloat = 44
+    /// 设置titileView的背景颜色
+    var backgroundColor: UIColor = UIColor.white
     
     /// 是否显示底部分割线
     var isShowSplitLine: Bool = true
@@ -52,7 +54,7 @@ class HQTitleStyle {
     /// 遮盖上下间隙
     var coverTopBottomMargin: CGFloat = 8
     /// 设置圆角大小
-    var coverRadius: CGFloat = 10
+    var coverRadius: CGFloat = 11
 
     
 }

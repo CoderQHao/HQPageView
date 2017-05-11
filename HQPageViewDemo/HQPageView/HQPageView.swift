@@ -45,6 +45,7 @@ extension HQPageView {
         let titleFrame = CGRect(x: 0, y: 0, width: frame.width, height: titleH)
         titleView = HQTitleView(frame: titleFrame, titles: titles, style : style)
         titleView.delegate = self
+        titleView.backgroundColor = style.backgroundColor
         addSubview(titleView)
         
         let contentFrame = CGRect(x: 0, y: titleH, width: frame.width, height: frame.height - titleH)

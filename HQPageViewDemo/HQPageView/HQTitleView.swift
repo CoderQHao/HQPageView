@@ -215,23 +215,27 @@ extension HQTitleView {
     }
     
     func setScale(_ scale: CGFloat) {
-        if scale < 0 || scale > CGFloat(titleLabels.count - 1) { return }
+        
         // 获得需要操作的左边label
         let leftIndex = Int(scale)
+        
         let leftLabel = titleLabels[leftIndex] as! HQTitleLabel
         
         // 获得需要操作的右边label
         let rightIndex = leftIndex + 1
-        guard let rightLabel = (rightIndex == self.titleLabels.count) ? nil : titleLabels[rightIndex] as? HQTitleLabel else { return }
+        
+        guard let rightLabel = (rightIndex == self.titleLabels.count) ? leftLabel : titleLabels[rightIndex] as? HQTitleLabel else { return }
         
         // 右边比例
         let rightScale = scale - CGFloat(leftIndex)
+        
         // 左边比例
         let leftScale = 1 - rightScale
         // 设置label的比例
         if style.isGradualChangeEnabel {
-            leftLabel.scale = leftScale
+            
             rightLabel.scale = rightScale
+            leftLabel.scale = leftScale
         }
     
         let leftRect = (leftLabel.text! as NSString).boundingRect(with: CGSize(width: CGFloat(MAXFLOAT), height: 0.0), options: .usesLineFragmentOrigin, attributes: [NSFontAttributeName: self.style.font], context: nil)

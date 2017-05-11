@@ -39,9 +39,7 @@ class HQContentView: UIView {
         collectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: kHQContentCellID)
         collectionView.backgroundColor = UIColor.clear
         return collectionView
-        
     }()
-
 
     // MARK: 构造函数
     init(frame: CGRect, childVcs: [UIViewController], parentViewController: UIViewController) {
@@ -56,10 +54,7 @@ class HQContentView: UIView {
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-
-
 }
-
 
 // MARK:- 设置界面内容
 extension HQContentView {
@@ -112,14 +107,13 @@ extension HQContentView: UICollectionViewDataSource, UICollectionViewDelegate {
         let scale = scrollView.contentOffset.x / scrollView.frame.size.width
         delegate?.contentView(self, scale: scale)
     }
-    
 }
 
 // MARK: - 对外暴露的方法
 extension HQContentView {
     func setCurrentIndex(_ currentIndex: Int) {
         // 让底部的内容collectionView滚动到对应位置
-        var offset = self.collectionView.contentOffset
+        var offset = collectionView.contentOffset
         offset.x = CGFloat(currentIndex) * collectionView.bounds.width
         collectionView.setContentOffset(offset, animated: true)
     }    

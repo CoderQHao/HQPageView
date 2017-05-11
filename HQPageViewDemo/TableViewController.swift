@@ -10,7 +10,7 @@ import UIKit
 
 class TableViewController: UITableViewController {
     
-    var titles = ["网易云音乐", "网易新闻", "PPTV", "斗鱼"]
+    var titles = ["网易云音乐", "网易新闻", "PPTV", "斗鱼", "表情键盘布局"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,7 +19,7 @@ class TableViewController: UITableViewController {
     
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 4
+        return titles.count
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -35,8 +35,10 @@ class TableViewController: UITableViewController {
             navigationController?.pushViewController(NewsViewController(), animated: true)
         } else if indexPath.row == 2 {
             navigationController?.pushViewController(PPTVViewController(), animated: true)
-        } else {
+        } else if indexPath.row == 3 {
             navigationController?.pushViewController(DouYuViewController(), animated: true)
+        } else {
+            navigationController?.pushViewController(GiftViewController(), animated: true)
         }
     }
 
